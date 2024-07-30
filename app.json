@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "expo-ota-exclusion-repro",
+    "slug": "expo-ota-exclusion-repro",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "runtimeVersion": "version-1.0.0",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jcarpenter1.expo-ota-exclusion-repro"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.jcarpenter1.expootaexclusionrepro"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "updates": {
+        "assetPatternsToBeBundled": [
+          "**/*.png",
+          "**/*.ttf"
+        ]
+      },
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "335ae85f-3cd7-4599-93f1-09a71ee5c0dd"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/335ae85f-3cd7-4599-93f1-09a71ee5c0dd"
+    }
+  }
+}
