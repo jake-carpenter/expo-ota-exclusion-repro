@@ -1,5 +1,7 @@
 # Reproduction
 
+Repro project for [Expo issue #30723 - EAS Update fails on Android when an asset has been excluded from the manifest](https://github.com/expo/expo/issues/30723)
+
 This is the initial app created by `create-expo-app` plus `expo-sqlite` and a
 `./assets/database.db` file. The index screen reads that database which is
 pre-populated with a single tab and a couple of records just to be sure the
