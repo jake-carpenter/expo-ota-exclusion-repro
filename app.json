@@ -2,7 +2,7 @@
   "expo": {
     "name": "expo-ota-exclusion-repro",
     "slug": "expo-ota-exclusion-repro",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "myapp",
@@ -16,7 +16,12 @@
       "ios",
       "android"
     ],
-    "runtimeVersion": "version-1.0.0",
+    "updates": {
+      "url": "https://u.expo.dev/335ae85f-3cd7-4599-93f1-09a71ee5c0dd",
+      "enabled": true,
+      "checkAutomatically": "ON_LOAD"
+    },
+    "runtimeVersion": "version-1.1.0",
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.jcarpenter1.expo-ota-exclusion-repro"
@@ -47,9 +52,6 @@
       "eas": {
         "projectId": "335ae85f-3cd7-4599-93f1-09a71ee5c0dd"
       }
-    },
-    "updates": {
-      "url": "https://u.expo.dev/335ae85f-3cd7-4599-93f1-09a71ee5c0dd"
     }
   }
 }
